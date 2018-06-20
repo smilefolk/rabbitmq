@@ -1,0 +1,20 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "babel-node ./src/send.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "babel-watch": "^2.0.7",
+    "express": "^4.16.3",
+    "facebook-chat-api": "^1.6.0"
+  }
+}
